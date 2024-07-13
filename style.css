@@ -1,0 +1,56 @@
+.box {
+  margin-top: 3pc;
+  border-radius: 2pc;
+}
+
+.box2 {
+  margin-top: 3pc;
+  border-radius: 2pc;
+  background-color: rgb(253, 225, 255);
+}
+
+.box1 {
+  margin-top: 1pc;
+  border-radius: 2pc;
+}
+
+#tampilanAwal {
+  padding: 1pc;
+}
+
+#tampilanDashbor {
+  padding: 1pc;
+}
+
+.judul {
+  font-family: inherit;
+}
+
+body {
+  background-color: rgb(255, 11, 182);
+  background-image: linear-gradient(89deg, #f140e5 0%, #8744c5 100%);
+}
+
+.T {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control {
+  border-radius: 2pc;
+}
+
+.btn {
+  border-radius: 2pc;
+  background-color: rgb(255, 11, 182);
+  background-image: linear-gradient(89deg, #e59be0 0%, #5e00b6 100%);
+}
+
+.form-select {
+  font-family: 15px;
+  border-radius: 2pc;
+}
+
+.hidden {
+  display: none;
+}
