@@ -109,7 +109,7 @@ function nextPage() {
         btnLoading.classList.toggle('d-none');
       }, 1000);
 
-          fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+       fetch(scriptURL, { method: 'POST', body: new FormData(form) })
       .then((response) => console.log('Success!', response))
       .catch((error) => console.error('Error!', error.message));
 
