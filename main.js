@@ -102,14 +102,16 @@ function nextPage() {
       Wgender.style.display = 'block';
       document.getElementById('opsi').style.borderColor = 'red';
     }
-    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-      .then((response) => console.log('Success!', response))
-      .catch((error) => console.error('Error!', error.message));
+
 
     if (valid) {
       let loaded = setInterval(() => {
         btnLoading.classList.toggle('d-none');
       }, 1000);
+
+          fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then((response) => console.log('Success!', response))
+      .catch((error) => console.error('Error!', error.message));
 
       setTimeout(() => {
         clearInterval(loaded);
